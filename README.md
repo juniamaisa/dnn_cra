@@ -17,6 +17,16 @@ The classification task is binary:
 
 Each sample is represented as a fixed-length numeric sequence derived from instruction-level data.
 
+
+## Requirements
+
+The main DNN notebooks require only the core scientific Python and PyTorch stack:
+
+```bash
+pip install -r requirements.txt
+```
+For CUDA-enabled installations, install PyTorch using the command recommended by the official PyTorch selector for your CUDA version.
+
 ## Repository structure
 
 ```text
@@ -676,4 +686,21 @@ Add model-specific architecture summaries.
 
 ## Citation
 
-If this repository is used in academic work, cite the related paper, thesis, or technical report associated with this CRA detection pipeline.
+If this repository is used in academic work, cite the related paper associated with this CRA detection pipeline.
+
+J. M. Oliveira, A. Musa, E. Parisi, F. Barchi and A. Acquaviva, "Deep Neural Networks Study for Advanced Code-reuse Attacks Detection," 2025 IEEE 9th Forum on Research and Technologies for Society and Industry (RTSI), Tunis, Tunisia, 2025, pp. 332-337, doi: 10.1109/RTSI64020.2025.11212515. keywords: {Deep learning;Performance evaluation;Training;Accuracy;Instruction sets;Computer architecture;Artificial neural networks;Hardware;Tokenization;Real-time systems;Deep Learning;Code Reuse Attacks Detection;RISC-V;Instruction Traces;Cybersecurity},
+
+
+```text
+@INPROCEEDINGS{11212515,
+  author={Oliveira, Júnia Maísa and Musa, Alberto and Parisi, Emanuele and Barchi, Francesco and Acquaviva, Andrea},
+  booktitle={2025 IEEE 9th Forum on Research and Technologies for Society and Industry (RTSI)}, 
+  title={Deep Neural Networks Study for Advanced Code-reuse Attacks Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={332-337},
+  keywords={Deep learning;Performance evaluation;Training;Accuracy;Instruction sets;Computer architecture;Artificial neural networks;Hardware;Tokenization;Real-time systems;Deep Learning;Code Reuse Attacks Detection;RISC-V;Instruction Traces;Cybersecurity},
+  doi={10.1109/RTSI64020.2025.11212515}}
+```
+
