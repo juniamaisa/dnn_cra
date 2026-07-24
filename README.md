@@ -662,7 +662,7 @@ The batch manager stores metadata for each execution, including run ID, notebook
 
 The repository does not include raw benchmark traces.
 
-The repository does not include generated `shared_artifacts/` folders.
+The repository does not include generated `shared_artifacts/` folders because these artifacts are derived from benchmark executions and collected performance traces where the benchmark owner defines publication/disclosure constraints for benchmark results: EEMBC states that “Full fury” CoreMark-PRO scores may be published or disclosed only by EEMBC members after certification, and third-party license notices also state that a commercial CoreMark-PRO license is required to disclose, reference, or publish CoreMark-PRO test results in public materials. Therefore, this repository provides the pipeline and scripts needed to regenerate the artifacts locally, but it does not redistribute the collected benchmark-derived data. ( https://www.eembc.org/coremark-pro/faq.php )
 
 The default notebook paths may need changes for Linux or macOS.
 
