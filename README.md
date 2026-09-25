@@ -1,4 +1,4 @@
-# CRA-DNNBench
+# CRA-DNNCode
 
 Deep neural network experiments for detecting Code-Reuse Attack (CRA)-like execution patterns from encoded instruction traces.
 
