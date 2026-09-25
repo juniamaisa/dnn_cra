@@ -91,7 +91,7 @@ Before Stage 0, execute the benchmark workload selected for the experiment. The 
 The executable should be launched under Linux `perf record`. The generic command is:
 
 ```bash
-SAMPLE_PERIOD=5000
+SAMPLE_PERIOD=500
 exe_base="./benchmark_executable"
 data="./perf_data/benchmark_executable.data"
 
@@ -227,7 +227,7 @@ sudo python scripts/data_collection_and_stage0.py \
   --collect \
   --exe ./sha-test \
   --perf-out ./perf_data/sha-test.data \
-  --sample-period 5000
+  --sample-period 500
 ```
 
 Dry run:
@@ -237,7 +237,7 @@ python scripts/data_collection_and_stage0.py \
   --collect \
   --exe ./sha-test \
   --perf-out ./perf_data/sha-test.data \
-  --sample-period 5000 \
+  --sample-period 500 \
   --dry-run
 ```
 
